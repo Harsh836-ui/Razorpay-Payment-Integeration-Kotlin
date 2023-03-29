@@ -39,8 +39,8 @@ class MainActivity : AppCompatActivity(), PaymentResultListener {
             // initializing razorpay account
             val checkout = Checkout()
 
-            // on the below line we have to see our id.
-            checkout.setKeyID("rzp_test_0LIW5fkgQT2rT3")
+            // on the below line we have to enter our id.
+            checkout.setKeyID("INSERT YOU KEY HERE")
 
 //            // set image
 //            checkout.setImage(R.drawable.android)
